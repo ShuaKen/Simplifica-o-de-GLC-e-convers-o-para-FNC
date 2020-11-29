@@ -1,0 +1,26 @@
+Lista=[]
+Lista2=[]
+
+GLC=""
+GLC2=""
+
+while True:
+    v1=input("variavel 1:")
+    GLC=input("terminais1:")
+    if GLC=="fim":
+        break
+    Lista.append(GLC)
+    print(v1,Lista)
+
+while True:
+    v2 = input("variavel 2:")
+    GLC2=input("terminais2:")
+    if GLC2=="fim":
+        break
+    Lista2.append(GLC2)
+    print(Lista2)
+
+
+
+
+print(Lista,Lista2)
