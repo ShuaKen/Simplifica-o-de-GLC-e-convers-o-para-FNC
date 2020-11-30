@@ -1,26 +1,26 @@
-Lista=[]
-Lista2=[]
 
-GLC=""
-GLC2=""
 
 while True:
-    v1=input("variavel 1:")
-    GLC=input("terminais1:")
-    if GLC=="fim":
+    var =input("Variavel: ")
+    x = var.split("-->")
+    ter =input("terminais: ")
+
+
+
+    #fim execução
+    if var == "fim":
+        print(x)
+        print(x1)
         break
-    Lista.append(GLC)
-    print(v1,Lista)
-
-while True:
-    v2 = input("variavel 2:")
-    GLC2=input("terminais2:")
-    if GLC2=="fim":
-        break
-    Lista2.append(GLC2)
-    print(Lista2)
 
 
 
+    #Remoção de Produções vazias
+    vazio="e"
+    for i in range(0,len(vazio)):
+        ter = ter.replace("e"[i], "")
+        x1 =ter.split("|")
 
-print(Lista,Lista2)
+    print(x1)
+
+
